@@ -38,6 +38,7 @@ main{
 
  main > a {
   color: black;
+
 }
 
 main a:hover{
@@ -67,6 +68,15 @@ article h2{
     min-width: 280px;
 }
 
+article ol{
+   list-style-type: '\2705\0020\0020';
+   list-style-position: inside;
+}
+
+article ul{
+    list-style-type: '\1F4F2\0020\0020';
+    list-style-position: inside;
+}
 
 nav{
     background-image: linear-gradient(to left, rgba(255, 255, 255, 0.623) ,rgb(0, 0, 0));
@@ -77,7 +87,7 @@ nav{
     
 }
 
-nav> a {
+nav > a {
     padding: 10px;
    color: white;
     text-decoration: none;
