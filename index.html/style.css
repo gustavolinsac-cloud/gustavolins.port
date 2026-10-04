@@ -55,7 +55,7 @@ ol{
 }
 
 article h1 {
-   background-image: linear-gradient(to left, white, rgba(0, 0, 0, 0.716));
+   background-image: linear-gradient(to left, rgb(255, 255, 255), rgba(0, 0, 0, 0.867));
    border-radius: 9px;
     text-align: center;
     max-width: 600px;
@@ -64,7 +64,7 @@ article h1 {
 }
 
 article h2{
-    background-image: linear-gradient(to left, white, rgba(0, 0, 0, 0.766));
+    background-image: linear-gradient(to left, white, rgba(0, 0, 0, 0.881));
     border-radius:9px ;
     text-align: center;
     max-width: 600px;
