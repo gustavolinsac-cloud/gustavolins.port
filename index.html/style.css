@@ -51,9 +51,6 @@ article{
     line-height: 2em;
 }
 
-ol{
-   
-}
 
 article h1 {
    background-image: linear-gradient(to left, rgb(255, 255, 255), rgba(0, 0, 0, 0.867));
@@ -75,6 +72,10 @@ article h2{
 article ol{
    list-style-type: '\2705\0020\0020';
    list-style-position: inside;
+}
+
+article ol:hover{
+    color: blue;
 }
 
 article ul{
